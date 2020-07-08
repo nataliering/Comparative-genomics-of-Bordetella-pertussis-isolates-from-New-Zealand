@@ -58,8 +58,7 @@ We used bwa mem to produce map the Illumina reads to each draft, processed the o
 `progressiveMauve --output=output_name.mauve /path/to/genome/directory/*.fasta`
 
 ### Assigning allele type for ACV genes (using custom-made bpertussis ACV genes mlst scheme)
-**[tfa_prepper](https://github.com/nataliering/Comparative-genomics-of-Bordetella-pertussis-isolates-from-New-Zealand/blob/master/tfa_prepper)**
-
+**[tfa_prepper](https://github.com/nataliering/Comparative-genomics-of-Bordetella-pertussis-isolates-from-New-Zealand/blob/master/tfa_prepper)**                               
 `tfa_prepper BORD00XXXX gene_name`
 
 **[mlst](https://github.com/tseemann/mlst)**  
