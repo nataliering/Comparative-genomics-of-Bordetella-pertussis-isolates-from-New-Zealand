@@ -64,6 +64,12 @@ We used bwa mem to produce map the Illumina reads to each draft, processed the o
 **[mlst](https://github.com/tseemann/mlst)**  
 `mlst --legacy --csv --scheme bpertussis input_genomes.fasta > mlst_results.csv `
 
-The ready-made custom scheme can also be downloaded from **[Figshare](https://doi.org/10.6084/m9.figshare.12628223)**
+The ready-made custom scheme can also be downloaded from **[Figshare](https://doi.org/10.6084/m9.figshare.12628223)**.
+
+### Draft annotation
+**[Prokka](https://github.com/tseemann/prokka)**  
+`prokka --prefix prefix --addgenes --genus Bordetella --species pertussis --kingdom Bacteria --usegenus --proteins reference_proteins.faa --evalue 1e-10 --rfam --cpus 8  assembly.fasta`
+
+
                                  
 
