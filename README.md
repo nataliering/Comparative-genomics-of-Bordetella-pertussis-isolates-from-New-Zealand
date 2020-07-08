@@ -47,7 +47,7 @@ We included Medaka in our long-read-centric pipeline.
 `medaka_consensus -i basecalled_reads.fastq -d unpolished_genome.fasta -o output_directory -t 8 -m r941_min_fast_g303`
 
 **[Pilon](https://github.com/broadinstitute/pilon)**  
-We used bwa mem to produce map the Illumina reads to each draft, processed the output alignment using samtools, then used the processed alignment file to run Pilon. [pilon_runner](https://github.com/nataliering/Resolving-the-complex-Bordetella-pertussis-genome-using-barcoded-nanopore-sequencing/blob/master/pilon_runner) automatically carries out the required steps.
+We used bwa mem to produce map the Illumina reads to each long-read-centric draft, processed the output alignment using samtools, then used the processed alignment file to run Pilon. [pilon_runner](https://github.com/nataliering/Resolving-the-complex-Bordetella-pertussis-genome-using-barcoded-nanopore-sequencing/blob/master/pilon_runner) automatically carries out the required steps.
 
 ### Assessing assembly completeness
 **[BUSCO](https://busco.ezlab.org/)**  
