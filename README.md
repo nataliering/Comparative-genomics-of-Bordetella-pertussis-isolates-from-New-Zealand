@@ -43,7 +43,7 @@ Each of the tools we used can be further optimised; we tended to use the default
 We used Minimap2 to map the Nanopore reads to each long-read-centric draft, then used the alignment file to run Racon. This was repeated 4 times before Medaka polishing. [racon_runner](https://github.com/nataliering/Resolving-the-complex-Bordetella-pertussis-genome-using-barcoded-nanopore-sequencing/blob/master/racon_runner) automatically carries out the required steps.
 
 **[Medaka](https://github.com/nanoporetech/medaka)**  
-We included Medaka in our long-read-centric pipeline. 
+We included Medaka in our long-read-centric pipeline.                                                                                                                         
 `medaka_consensus -i basecalled_reads.fastq -d unpolished_genome.fasta -o output_directory -t 8 -m r941_min_fast_g303`
 
 **[Pilon](https://github.com/broadinstitute/pilon)**  
