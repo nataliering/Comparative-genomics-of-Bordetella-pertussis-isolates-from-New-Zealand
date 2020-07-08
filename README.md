@@ -8,5 +8,5 @@ Code and commands used in our manuscript, "Comparative genomcis of Bordetella pe
 **[mlst](https://github.com/tseemann/mlst)**  
 `mlst --legacy --csv --scheme bpertussis input_genomes.fasta > mlst_results.csv `
 
-**[tfa_prepper](https://github.com/nataliering/FHA_screening/blob/master/tfa_preparer)**                                       
+**[tfa_prepper](https://github.com/nataliering/Comparative-genomics-of-Bordetella-pertussis-isolates-from-New-Zealand/blob/master/tfa_prepper)**                                 
 `tfa_prepper BORD00XXXX gene_name`
